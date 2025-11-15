@@ -256,15 +256,3 @@ MIT – free to use and modify.
 # 9. Contributing
 
 Pull requests welcome!
-
----
-
-If you want, I can also:
-
-✅ Generate the full ZIP upload layout
-✅ Provide an example folder structure
-✅ Add badges (code style, Python version)
-✅ Add screenshots for GitHub
-✅ Write a German translation
-
-##### Just tell me!
