@@ -200,17 +200,7 @@ systemctl status speedport-updater
 
 ---
 
-# 5. Progress Bar (Optional)
-
-You can enable a **1-hour countdown progress bar** using:
-
-```bash
-python3 speedport_updater.py --progress
-```
-
----
-
-# 6. requirements.txt
+# 5. requirements.txt
 
 ```
 selenium
@@ -221,7 +211,7 @@ typing_extensions
 
 ---
 
-# 7. Script Architecture Notes
+# 6. Script Architecture Notes
 
 * Uses **Selenium WebDriver** to control the router’s UI
 * Uses **WebDriverWait** instead of raw sleeps
@@ -235,7 +225,7 @@ typing_extensions
 
 ---
 
-# 8. Troubleshooting
+# 7. Troubleshooting
 
 ### Login button stays disabled
 
@@ -257,13 +247,13 @@ Look for **global dynamic**.
 
 ---
 
-# 9. License
+# 8. License
 
 MIT – free to use and modify.
 
 ---
 
-# 10. Contributing
+# 9. Contributing
 
 Pull requests welcome!
 
