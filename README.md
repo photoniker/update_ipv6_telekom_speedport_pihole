@@ -1,31 +1,12 @@
-Sure — here is a **complete `README.md`** written in clean GitHub-ready Markdown, including:
 
-✅ Project description
-✅ Features
-✅ How it works
-✅ Requirements
-✅ Installation on Raspberry Pi
-✅ Install Pi-hole (optional)
-✅ Install Python + dependencies
-✅ Install Chromium + Chromedriver
-✅ Running the script
-✅ Logging
-✅ Creating a systemd background service
-✅ Command-line progress bar explanation
-✅ `requirements.txt`
-✅ Architecture notes
 
-You can now **copy/paste this directly into GitHub**.
-
----
-
-# README.md
-
-# Speedport IPv6 DNS Auto-Updater
+# Speedport IPv6 DNS Auto-Update
 
 Automatically updates the IPv6 DNS server entry on a **Telekom Speedport Smart 4 Plus** router using Selenium.
 This script runs on a **Raspberry Pi** and periodically checks the Pi’s IPv6 GUA.
-If the IPv6 changes, the value is automatically updated in the router’s web interface.
+If the IPv6 changes, the value is automatically updated in the router’s web interface. 
+
+This is a workaround to get pihole running with the Speedport Router.
 
 ---
 
