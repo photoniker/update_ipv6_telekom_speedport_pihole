@@ -101,16 +101,6 @@ def get_ipv6_gua(interface: str = "eth0") -> Optional[str]:
     return None
 
 
-def simple_progress_bar(seconds: int):
-    for i in range(seconds):
-        percent = (i + 1) / seconds * 100
-        bar = "#" * int(percent / 4)
-        sys.stdout.write(f"\rWaiting: [{bar:<25}] {percent:5.1f}%")
-        sys.stdout.flush()
-        time.sleep(1)
-    print()
-
-
 def find_executable(paths: tuple[str, ...]) -> Optional[str]:
     """Return first existing executable path from `paths` or None."""
     for p in paths:
